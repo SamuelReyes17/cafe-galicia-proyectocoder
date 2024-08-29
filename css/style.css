@@ -146,10 +146,10 @@ h1, h4, h3{
 /*Footer*/
 
 footer{
-    padding-top: 20px ;
     font-size: 12px;
     height: 100%;
     font-family: BaseticaBold, Arial, Helvetica, sans-serif;
+    color: #fff;
     
 }
 footer ul {
@@ -159,10 +159,10 @@ footer ul {
 footer > div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 30vh;
+    grid-template-rows: 40vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(101, 101, 101);
+    background-color: #271e20;
     
 }
 footer div{
@@ -203,6 +203,8 @@ footer input {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 .bestsellers-1 div:nth-child(1) img{
     height: 650px;
@@ -234,7 +236,7 @@ footer input {
     font-size: 60px;
 }
 .bestsellers-2 {
-    background-color: rgb(214, 209, 209);
+    background-color: rgb(247 244 244 / 51%);
     height: 200px;
     width: 100%;
 }
@@ -389,6 +391,12 @@ h4  {
         margin: auto;
         height: 100%;
     }
+    .section-1 {
+        font-size: 15px;
+    }
+    .section-1 button {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 580px) {
     .section-1 {
@@ -401,13 +409,16 @@ h4  {
         background-position: center;
         background-attachment: fixed;
         color: lightgray;
-        font-size: 20px;
+        font-size: 15px;
     
     }
+    .section-1 button {
+        font-size: 20px;
 }
-@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 460px) {
     .section-1 {
-        font-size: 12px;
+        font-size: 10px;
 }
     .section-1 button {
         margin-top: 10px;
@@ -416,10 +427,39 @@ h4  {
         border: 1px solid #ffffff;
         background-color: #ffffffb6;
         color: rgb(3, 3, 3);
-        font-size: 20px;
+        font-size: 15px;
 }
 }
 /*Section 2*/
+
+@media screen and (max-width: 1100px) {
+    .section-2 h3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and(max-width: 1030px) {
+    .section-2 button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1019px) {
+    .section-2 img {
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .section-2 img {
+        height: 250px;
+        width: 250px;
+    }
+
+}
+
 @media screen and (max-width: 580px) {
     .section-2 {
         text-align: center;
@@ -427,23 +467,29 @@ h4  {
         height: 100%;
     }
 }
-@media screen and (max-width: 500px){
-    .section-2 img {
-        height: 300px;
-        width: 300px;
-    }
+@media screen and (max-width: 700px){
     .section-2 h3 {
         font-size: 30px;
     }
+    .section-2 button {
+        font-size: 15px;
+    }
 }
 
+@media screen and (max-width: 400px) {
+    .section-2 button {
+        font-size: 10px;
+        width: 30%;
+    }
+}
 /*Section 3*/
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .section-3{
         display: flex;
         flex-direction: column;
         margin-top: 40px;
+        height: 90vh;
     }
     
 }
@@ -455,13 +501,43 @@ h4  {
 
 /*Best Sellers*/
 
+@media  screen and (max-width:1150px) {
+    .bestsellers-1 {
+        margin-top: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 1100px){
+    .bestsellers-1 div:nth-child(1) img{
+        height: 600px;
+        width: 600px;
+    }
+    
+    .bestsellers-1 p {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .bestsellers-1 h4{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bestsellers-1 h4 {
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+
 @media screen and (max-width:800px) {
     .bestsellers-1{
         display: flex;
         flex-direction: column;
         height: 80vh;
-        margin-top: 80px;
-        margin-bottom: 200px;
+        margin-top: 250px;
+        margin-bottom: 220px;
     }
     .bestsellers-1 p {
         text-align: center
@@ -485,23 +561,10 @@ h4  {
     h4 {
         text-align: center;
     }
-    
    
 }
 
-@media screen and (max-width: 1100px){
-    .bestsellers-1 div:nth-child(1) img{
-        height: 600px;
-        width: 600px;
-    }
-    .bestsellers-1 p {
-        margin-top: 20px;
-        font-size: 15px;
-    }
-    .bestsellers-1 h4{
-        font-size: 40px;
-    }
-}
+
 @media  screen and (max-width: 900px) {
     .bestsellers-1 div:nth-child(1) img{
         height: 500px;
@@ -516,20 +579,19 @@ h4  {
 }
 @media screen and (max-width: 600px){
     .bestsellers-1 div:nth-child(1) img{
-        height: 400px;
-        width: 400px;
-        margin-top: 90px;
+        height: 350px;
+        width: 350px;
     }
 }
 @media screen and (max-width: 500px){
     .bestsellers-1 div:nth-child(1) img{
         height: 300px;
         width: 300px;
-        margin-top: 100px;
+        margin-bottom: 50px;
     }
     .bestsellers-1 p {
         margin-top: 20px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .bestsellers-1 h4 {
         font-size: 30px;
@@ -553,7 +615,6 @@ h4  {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 10vh 10vh;
-        background-color: rgb(101, 101, 101);
     }
     footer div{
         width: 100%;
@@ -567,11 +628,9 @@ h4  {
         grid-template-rows: 20vh 20vh 20vh 20vh;
         align-items: center;
         justify-content: center;
-        background-color: rgb(101, 101, 101);
-        
     }
 }
-@media screen and (max-width: 340px){
+@media screen and (max-width: 500px){
     footer h6 {
         font-size: 13px;
     }
