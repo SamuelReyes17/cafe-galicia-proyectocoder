@@ -335,7 +335,7 @@ h4  {
 .grid-container-ourStory {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80vh 60vh 80vh ;
+    grid-template-rows: 80vh 60vh 60vh ;
     align-items: center;
     
 }
