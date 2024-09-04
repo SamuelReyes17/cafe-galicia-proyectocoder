@@ -513,3 +513,62 @@ footer {
     font-size: 9px; }
   footer > div div ul li {
     font-size: 9px; } }
+
+/*Subscription*/
+@media screen and (max-width: 900px) {
+  .subscription-section-2 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh 10vh 40vh 40vh; }
+    .subscription-section-2 .subscription-grid-4 {
+      grid-row-end: -1; } }
+
+@media screen and (max-width: 700px) {
+  .subscription-section-1 {
+    height: 30vh; } }
+
+@media screen and (max-width: 600px) {
+  .subscription-section-2 .subscription-grid-1 h6 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 60px; }
+  .subscription-section-2 .subscription-grid-1 p {
+    font-size: 15px; }
+  .subscription-section-2 .subscription-grid-2 h6 {
+    font-size: 25px;
+    font-weight: 800; } }
+
+@media screen and (max-width: 400px) {
+  .subscription-section-2 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30vh 10vh 30vh 30vh; } }
+
+@media screen and (max-width: 350px) {
+  .subscription-section-2 .subscription-grid-1 h6 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 60px; }
+  .subscription-section-2 .subscription-grid-1 p {
+    font-size: 12px; }
+  .subscription-section-2 .subscription-grid-2 h6 {
+    font-size: 20px;
+    font-weight: 800;
+    width: 60%;
+    margin: auto; }
+  .subscription-section-2 .subscription-grid-3 h5 {
+    font-size: 20px;
+    font-weight: 800; }
+  .subscription-section-2 .subscription-grid-3 p {
+    font-size: 12px; }
+  .subscription-section-2 .subscription-grid-4 h5 {
+    font-size: 20px;
+    font-weight: 800; }
+  .subscription-section-2 .subscription-grid-4 p {
+    font-size: 12px; } }
