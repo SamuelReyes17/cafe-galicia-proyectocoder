@@ -1,0 +1,515 @@
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: AkkuratMono, Courier, monospace; }
+
+.navbar-brand, h3, h4 {
+  font-weight: 700; }
+
+/*Index */
+.section-1 {
+  display: flex;
+  height: 70vh;
+  text-align: center;
+  background-image: url(../img/our_story_bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: lightgray;
+  font-size: 25px; }
+  .section-1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto; }
+    .section-1 div button {
+      margin-top: 10px;
+      padding: 1px 4px 1px 4px;
+      border-radius: 2px;
+      border: 1px solid #ffffff;
+      background-color: #ffffffb6;
+      color: #030303;
+      font-size: 30px; }
+
+.section-2 {
+  padding-top: 20px;
+  color: lightgray;
+  text-align: center; }
+  .section-2 h3 {
+    font-size: 50px;
+    color: black;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px; }
+  .section-2 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px; }
+    .section-2 div div {
+      display: flex;
+      flex-direction: column; }
+      .section-2 div div img {
+        height: 500px;
+        width: 500px; }
+      .section-2 div div button {
+        background-color: #fbfafa;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        color: #cac4c4;
+        font-size: 25px;
+        font-weight: 500;
+        width: 50%;
+        align-content: center;
+        margin: auto; }
+
+/*Section 3*/
+.section-3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px; }
+  .section-3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px; }
+    .section-3 div:nth-child(1) {
+      background-image: url(../img/shop_coffee_bg.jpg);
+      background-size: cover;
+      background-position: center; }
+    .section-3 div p {
+      color: lightgray;
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 0.2cap;
+      margin-bottom: 2px; }
+    .section-3 div button {
+      background-color: transparent;
+      border: none;
+      border-radius: 5px;
+      color: #bcbec0;
+      letter-spacing: 0.2cap;
+      font-size: 20px; }
+  .section-3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px; }
+    .section-3 div:nth-child(2) {
+      background-image: url(../img/shop_tea_bg.jpg);
+      background-size: cover;
+      background-position: center; }
+    .section-3 div p {
+      color: lightgray;
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 0.2cap;
+      margin-bottom: 2px; }
+    .section-3 div button {
+      background-color: transparent;
+      border: none;
+      border-radius: 5px;
+      color: #bcbec0;
+      letter-spacing: 0.2cap;
+      font-size: 20px; }
+
+/*Footer*/
+footer {
+  font-size: 12px;
+  height: 100%;
+  font-family: BaseticaBold, Arial, Helvetica, sans-serif;
+  color: #fff; }
+  footer > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #271e20; }
+    footer > div div {
+      width: 100%;
+      gap: 10px;
+      padding: 14px;
+      max-height: 20%;
+      text-align: center; }
+      footer > div div h6 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 17px;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px; }
+    footer > div div ul {
+      list-style: none; }
+    footer > div div input {
+      width: 60%; }
+    footer > div div button {
+      background-color: white;
+      padding: 1px;
+      border: #ffffff;
+      width: 30%; }
+    footer > div .footer-social-media {
+      width: 100%;
+      gap: 10px;
+      padding: 14px;
+      max-height: 20%;
+      text-align: center; }
+      footer > div .footer-social-media i {
+        letter-spacing: 10px;
+        font-size: 12px; }
+
+/*Best sellers*/
+.bestsellers-1 {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 150px; }
+  .bestsellers-1 div img {
+    height: 650px;
+    width: 650px; }
+  .bestsellers-1 div:nth-child(2) {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; }
+  .bestsellers-1 div h4 {
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 70px; }
+  .bestsellers-1 div p {
+    margin-top: 20px;
+    font-size: 20px; }
+  .bestsellers-1 div button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fbfafa;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    color: #bcbec0;
+    letter-spacing: 0.2cap;
+    font-size: 20px; }
+
+.bestsellers-2 {
+  background-color: RGB(247 244 244/51%);
+  height: 200px;
+  width: 100%; }
+  .bestsellers-2 > div {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around; }
+    .bestsellers-2 > div div h5 {
+      font-size: 25px; }
+    .bestsellers-2 > div div p {
+      margin-top: 20px;
+      font-size: 12px; }
+
+/*Our Story*/
+.grid-container-ourStory {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80vh 60vh 80vh;
+  align-items: center; }
+  .grid-container-ourStory .ourStory-hero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 80vh;
+    background-image: url(../img/Cafe-Design-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+  .grid-container-ourStory .ourStory-1 {
+    height: 60vh;
+    background-image: url(../img/Vintage-Roaster.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .grid-container-ourStory div {
+    width: 100%;
+    text-align: center; }
+    .grid-container-ourStory div p {
+      font-size: 10px;
+      width: 50%;
+      margin: auto; }
+  .grid-container-ourStory .ourStory-2 {
+    height: 60vh;
+    background-image: url(../img/story_landing_coffee_sourcing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
+/*Subscription*/
+.subscription-section-1 {
+  background-color: #f3ede8;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: BaseticaBold, Helvetica, sans-serif; }
+  .subscription-section-1 div {
+    text-align: center; }
+    .subscription-section-1 div h4 {
+      margin-top: 2px;
+      margin-bottom: 11px;
+      font-size: 15px;
+      font-weight: 900; }
+    .subscription-section-1 div p {
+      font-family: AkkuratMono, Courier, monospace;
+      color: #be4025;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      font-size: 9px;
+      line-height: 15px;
+      border-bottom: 1px solid #be4025; }
+
+.subscription-section-2 {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40vh 10vh 60vh; }
+  .subscription-section-2 .subscription-grid-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 80%; }
+    .subscription-section-2 .subscription-grid-1 h6 {
+      font-size: 50px;
+      font-weight: 800;
+      margin-bottom: 60px; }
+  .subscription-section-2 .subscription-grid-2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 15px; }
+    .subscription-section-2 .subscription-grid-2 h6 {
+      font-size: 30px;
+      font-weight: 800; }
+  .subscription-section-2 .subscription-grid-3 {
+    width: 60%; }
+    .subscription-section-2 .subscription-grid-3 img {
+      width: 70%; }
+    .subscription-section-2 .subscription-grid-3 h5 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+  .subscription-section-2 .subscription-grid-4 {
+    width: 60%; }
+    .subscription-section-2 .subscription-grid-4 img {
+      width: 70%; }
+    .subscription-section-2 .subscription-grid-4 h5 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+
+/*Shop*/
+.section-2 h1 {
+  text-align: center;
+  color: #100e0e;
+  font-weight: 700;
+  font-size: 50px; }
+
+/*Media Query*/
+/*Index*/
+@media screen and (max-width: 1200px) {
+  .section-1 {
+    font-size: 15px; }
+    .section-1 div button {
+      font-size: 20px; }
+  .section-2 {
+    margin-bottom: 80px;
+    text-align: center;
+    margin: auto;
+    height: 100%; }
+    .section-2 > div {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      gap: 20px; } }
+
+@media screen and (max-width: 1100px) {
+  .section-2 h3 {
+    font-size: 35px; } }
+
+@media screen and (max-width: 1030px) {
+  .section-2 div div button {
+    font-size: 18px; } }
+
+@media screen and (max-width: 1019px) {
+  .section-2 div div img {
+    height: 300px;
+    width: 300px; } }
+
+@media screen and (max-width: 800px) {
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 90vh; } }
+
+@media screen and (max-width: 700px) {
+  .section-3 div:nth-child(1) {
+    margin-top: 80px; } }
+
+@media screen and (max-width: 700px) {
+  .section-2 h3 {
+    font-size: 30px; }
+  .section-2 div div button {
+    font-size: 15px; } }
+
+@media screen and (max-width: 580px) {
+  .section-1 {
+    display: flex;
+    height: 70vh;
+    text-align: center;
+    background-image: url(../img/our_story_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: lightgray;
+    font-size: 15px; }
+    .section-1 div button {
+      font-size: 20px; }
+  .section-2 {
+    text-align: center;
+    margin: auto;
+    height: 100%; } }
+
+@media screen and (max-width: 500px) {
+  .section-2 div div img {
+    height: 250px;
+    width: 250px; } }
+
+@media screen and (max-width: 460px) {
+  .section-1 {
+    font-size: 10px; }
+    .section-1 div button {
+      margin-top: 10px;
+      padding: 1px 4px 1px 4px;
+      border-radius: 2px;
+      border: 1px solid #ffffff;
+      background-color: #ffffffb6;
+      color: #030303;
+      font-size: 15px; }
+  .section-3 div p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 400px) {
+  .section-2 div div button {
+    font-size: 10px;
+    width: 30%; } }
+
+/*Best Sellers*/
+@media screen and (max-width: 1150px) {
+  .bestsellers-1 {
+    margin-top: 50px; } }
+
+@media screen and (max-width: 1100px) {
+  .bestsellers-1 div:nth-child(1) img {
+    height: 600px;
+    width: 600px; }
+  .bestsellers-1 div h4 {
+    font-size: 35px; }
+  .bestsellers-1 div p {
+    margin-top: 20px;
+    font-size: 13px; } }
+
+@media screen and (max-width: 900px) {
+  .bestsellers-1 div:nth-child(1) img {
+    height: 500px;
+    width: 500px; } }
+
+@media screen and (max-width: 800px) {
+  .bestsellers-1 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin-top: 230px;
+    margin-bottom: 220px; }
+    .bestsellers-1 div h4 {
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 30px;
+      margin-top: 20px; }
+    .bestsellers-1 div p {
+      text-align: center; }
+  .bestsellers-2 {
+    height: 400px;
+    width: 100%; }
+    .bestsellers-2 > div {
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+      .bestsellers-2 > div .cofee-details {
+        margin: 15px;
+        width: 50%; } }
+
+@media screen and (max-width: 600px) {
+  .bestsellers-1 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin-top: 150px;
+    margin-bottom: 220px; }
+    .bestsellers-1 div:nth-child(1) img {
+      height: 350px;
+      width: 350px; } }
+
+@media screen and (max-width: 500px) {
+  .bestsellers-1 {
+    margin-top: 150px;
+    margin-bottom: 150px; }
+    .bestsellers-1 div:nth-child(1) img {
+      height: 300px;
+      width: 300px;
+      margin-bottom: 30px; }
+    .bestsellers-1 div h4 {
+      font-size: 30px; }
+    .bestsellers-1 div p {
+      margin-top: 20px;
+      font-size: 10px; }
+    .bestsellers-1 div button {
+      font-size: 15px; } }
+
+@media screen and (max-width: 300px) {
+  .bestsellers-2 div .cofee-details h5 {
+    font-size: 20px; }
+  .bestsellers-2 div .cofee-details p {
+    font-size: 10px; } }
+
+/*Footer*/
+@media screen and (max-width: 800px) {
+  footer > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 700px) {
+  footer > div div h6 {
+    font-size: 13px; }
+  footer > div div p {
+    font-size: 9px; }
+  footer > div div ul li {
+    font-size: 9px; } }

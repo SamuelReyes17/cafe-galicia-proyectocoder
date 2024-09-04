@@ -1,0 +1,40 @@
+/*Our Story*/
+.grid-container-ourStory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80vh 60vh 80vh ;
+    align-items: center;
+    .ourStory-hero {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 80vh;
+        background-image: url(../img/Cafe-Design-hero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .ourStory-1 {
+        height: 60vh;
+        background-image: url(../img/Vintage-Roaster.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    div {
+        width: 100%;
+        text-align: center;
+        p {
+            font-size: 10px;
+            width: 50%;
+            margin: auto;
+        }
+    }
+    .ourStory-2 {
+        height: 60vh;
+        background-image: url(../img/story_landing_coffee_sourcing.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

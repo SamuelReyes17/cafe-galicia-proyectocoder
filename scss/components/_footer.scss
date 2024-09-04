@@ -1,0 +1,56 @@
+/*Footer*/
+footer {
+    font-size: 12px;
+    height: 100%;
+    font-family: BaseticaBold, Arial, Helvetica, sans-serif;
+    color: #fff;
+    > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 40vh;
+        align-items: center;
+        justify-content: center;
+        background-color: #271e20;
+        div {
+            width: 100%;
+            gap: 10px;
+            padding: 14px;
+            max-height: 20%;
+            text-align: center;
+            h6 {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 17px;
+                letter-spacing: 0.8px;
+                margin-bottom: 20px;
+            }
+        }
+        div {
+            ul {
+                list-style: none;
+            }
+        }
+        div {
+            input {
+                width: 60%;
+            }
+            button {
+                background-color: white;
+                padding: 1px;
+                border: #ffffff;
+                width: 30%;
+            }
+        }
+        .footer-social-media {
+            width: 100%;
+            gap: 10px;
+            padding: 14px;
+            max-height: 20%;
+            text-align: center;
+            i {
+                letter-spacing: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+}

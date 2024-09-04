@@ -1,0 +1,79 @@
+/*Subscription*/
+
+.subscription-section-1 {
+    background-color: #f3ede8;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: BaseticaBold, Helvetica, sans-serif;
+    div {
+        text-align: center;
+        h4 {
+            margin-top: 2px;
+            margin-bottom: 11px;
+            font-size: 15px;
+            font-weight: 900;
+        }
+        p {
+            font-family: AkkuratMono, Courier, monospace;;
+            color: #be4025;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            font-size: 9px;
+            line-height: 15px;
+            border-bottom: 1px solid #be4025;
+        }
+    }
+}
+
+.subscription-section-2 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 10vh 60vh;
+    .subscription-grid-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 80%;
+        h6 {
+            font-size: 50px;
+            font-weight: 800; 
+            margin-bottom: 60px;
+        }
+    }
+    .subscription-grid-2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 15px;
+        h6 {
+            font-size: 30px;
+            font-weight: 800; 
+        }
+    }
+    .subscription-grid-3 {
+        width: 60%;
+        img {
+            width: 70%;
+        }
+        h5 {
+            font-size: 20px;
+            font-weight: 700; 
+            margin-bottom: 20px;
+        }
+    }
+    .subscription-grid-4 {
+        width: 60%;
+        img {
+            width: 70%;
+        }
+        h5 {
+            font-size: 20px;
+            font-weight: 700; 
+            margin-bottom: 20px;
+        }
+    }
+}

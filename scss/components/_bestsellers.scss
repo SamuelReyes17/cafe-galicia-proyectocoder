@@ -1,0 +1,66 @@
+/*Best sellers*/
+
+.bestsellers-1 {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    div {
+        img {
+            height: 650px;
+            width: 650px;
+        }
+    }
+    div {
+        &:nth-child(2) {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        h4 {
+            font-size: 60px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        button {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            background-color: rgb(251, 250, 250);
+            border: none;
+            padding: 20px;
+            border-radius: 5px;
+            color: rgb(188, 190, 192);
+            letter-spacing: 0.2cap;
+            font-size: 20px;
+        }
+    }
+}
+
+.bestsellers-2 {
+    background-color: RGB(247 244 244 / 51%);
+    height: 200px;
+    width: 100%;
+    > div {
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        div {
+            h5 {
+                font-size: 25px;
+            }
+            p {
+                margin-top: 20px;
+                font-size: 12px;
+            }
+        }
+    }
+}
