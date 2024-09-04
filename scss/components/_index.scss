@@ -22,7 +22,7 @@
             padding: 1px 4px 1px 4px;
             border-radius: 2px;
             border: 1px solid #ffffff;
-            background-color: #ffffffb6;
+            background-color: $color-section1-button;
             color: rgb(3, 3, 3);
             font-size: 30px;
         }
@@ -33,7 +33,7 @@
     padding-top: 20px;
     color: lightgray;
     text-align: center;
-    h3 {
+    h1 {
         font-size: 50px;
         color: black;
         margin-top: 80px;

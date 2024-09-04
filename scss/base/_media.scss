@@ -28,7 +28,7 @@
 }
 @media screen and (max-width: 1100px) {
     .section-2 {
-        h3 {
+        h1 {
             font-size: 35px;
         }
     }
@@ -80,7 +80,7 @@
 }
 @media screen and (max-width: 700px) {
     .section-2 {
-        h3 {
+        h1 {
             font-size: 30px;
         }
         div {
@@ -187,7 +187,7 @@
             
         }
         div {
-            h4 {
+            h1 {
                 font-size: 35px;
             }
             p {
@@ -217,7 +217,7 @@
         margin-top: 230px;
         margin-bottom: 220px;
         div {
-            h4 {
+            h1 {
                 text-align: center;
                 font-size: 25px;
                 margin-bottom: 30px;
@@ -276,7 +276,7 @@
             }
         }
         div {
-            h4 {
+            h1 {
                 font-size: 30px;
             }
             p {
@@ -382,7 +382,7 @@
 @media screen and (max-width: 600px) {
     .subscription-section-2 {
         .subscription-grid-1 {
-            h6 {
+            h2 {
                 font-size: 35px;
                 font-weight: 800; 
                 margin-bottom: 60px;
@@ -392,9 +392,23 @@
             }
         }
         .subscription-grid-2 {
-            h6 {
+            h2 {
                 font-size: 25px;
                 font-weight: 800;
+            }
+        }
+    }
+}
+@media screen and (max-width:550px) {
+    .subscription-section-1 {
+        div {
+            h1 {
+                font-size: 30px;
+            }
+            a {
+                p {
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -410,9 +424,21 @@
     }
 }
 @media screen and (max-width: 350px) {
+    .subscription-section-1 {
+        div {
+            h1 {
+                font-size: 25px;
+            }
+            a {
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
     .subscription-section-2 {
         .subscription-grid-1 {
-            h6 {
+            h2 {
                 font-size: 30px;
                 font-weight: 800; 
                 margin-bottom: 60px;
@@ -422,7 +448,7 @@
             }
         }
         .subscription-grid-2 {
-            h6 {
+            h2 {
                 font-size: 20px;
                 font-weight: 800;
                 width: 60%; 
@@ -430,7 +456,7 @@
             }
         }
         .subscription-grid-3 {
-            h5 {
+            h2 {
                 font-size: 20px;
                 font-weight: 800; 
             }
@@ -439,7 +465,7 @@
             }
         }
         .subscription-grid-4 {
-            h5 {
+            h2 {
                 font-size: 20px;
                 font-weight: 800;
             }
@@ -449,6 +475,7 @@
         }
     }
 }
+
 /*Story*/
 
 @media screen and (max-width: 1100px) {

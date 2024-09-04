@@ -1,4 +1,8 @@
 /*Variables*/
+/*Extends*/
+.subscription-section-1 div a {
+  text-decoration: none; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -41,7 +45,7 @@ body {
   padding-top: 20px;
   color: lightgray;
   text-align: center; }
-  .section-2 h3 {
+  .section-2 h1 {
     font-size: 50px;
     color: black;
     margin-top: 80px;
@@ -188,10 +192,12 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 10px; }
-  .bestsellers-1 div h4 {
+  .bestsellers-1 div h1 {
     font-size: 60px;
     margin-top: 70px;
-    margin-bottom: 70px; }
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif; }
   .bestsellers-1 div p {
     margin-top: 20px;
     font-size: 20px; }
@@ -266,18 +272,19 @@ footer {
   font-family: BaseticaBold, Helvetica, sans-serif; }
   .subscription-section-1 div {
     text-align: center; }
-    .subscription-section-1 div h4 {
+    .subscription-section-1 div h1 {
       margin-top: 2px;
-      margin-bottom: 11px;
-      font-size: 15px;
-      font-weight: 900; }
-    .subscription-section-1 div p {
+      margin-bottom: 20px;
+      font-size: 50px;
+      font-weight: 900;
+      letter-spacing: 1.5px; }
+    .subscription-section-1 div a p {
       font-family: AkkuratMono, Courier, monospace;
       color: #be4025;
       font-weight: 500;
-      letter-spacing: 0.2px;
-      font-size: 9px;
+      font-size: 20px;
       line-height: 15px;
+      padding-bottom: 8px;
       border-bottom: 1px solid #be4025; }
 
 .subscription-section-2 {
@@ -291,7 +298,7 @@ footer {
     grid-column-start: 1;
     grid-column-end: 3;
     width: 80%; }
-    .subscription-section-2 .subscription-grid-1 h6 {
+    .subscription-section-2 .subscription-grid-1 h2 {
       font-size: 50px;
       font-weight: 800;
       margin-bottom: 60px; }
@@ -299,25 +306,25 @@ footer {
     grid-column-start: 1;
     grid-column-end: 3;
     font-size: 15px; }
-    .subscription-section-2 .subscription-grid-2 h6 {
+    .subscription-section-2 .subscription-grid-2 h2 {
       font-size: 30px;
       font-weight: 800; }
   .subscription-section-2 .subscription-grid-3 {
     width: 60%; }
     .subscription-section-2 .subscription-grid-3 img {
       width: 70%; }
-    .subscription-section-2 .subscription-grid-3 h5 {
-      font-size: 20px;
+    .subscription-section-2 .subscription-grid-3 h2 {
+      font-size: 30px;
       font-weight: 700;
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
   .subscription-section-2 .subscription-grid-4 {
     width: 60%; }
     .subscription-section-2 .subscription-grid-4 img {
       width: 70%; }
-    .subscription-section-2 .subscription-grid-4 h5 {
-      font-size: 20px;
+    .subscription-section-2 .subscription-grid-4 h2 {
+      font-size: 30px;
       font-weight: 700;
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
 
 /*Shop*/
 .section-2 h1 {
@@ -345,7 +352,7 @@ footer {
       gap: 20px; } }
 
 @media screen and (max-width: 1100px) {
-  .section-2 h3 {
+  .section-2 h1 {
     font-size: 35px; } }
 
 @media screen and (max-width: 1030px) {
@@ -373,7 +380,7 @@ footer {
     margin-top: 80px; } }
 
 @media screen and (max-width: 700px) {
-  .section-2 h3 {
+  .section-2 h1 {
     font-size: 30px; }
   .section-2 div div button {
     font-size: 15px; } }
@@ -434,7 +441,7 @@ footer {
     .bestsellers-1 div:nth-child(1) img {
       height: 600px;
       width: 600px; }
-    .bestsellers-1 div h4 {
+    .bestsellers-1 div h1 {
       font-size: 35px; }
     .bestsellers-1 div p {
       margin-top: 20px;
@@ -452,7 +459,7 @@ footer {
     height: 40vh;
     margin-top: 230px;
     margin-bottom: 220px; }
-    .bestsellers-1 div h4 {
+    .bestsellers-1 div h1 {
       text-align: center;
       font-size: 25px;
       margin-bottom: 30px;
@@ -492,7 +499,7 @@ footer {
       height: 300px;
       width: 300px;
       margin-bottom: 30px; }
-    .bestsellers-1 div h4 {
+    .bestsellers-1 div h1 {
       font-size: 30px; }
     .bestsellers-1 div p {
       margin-top: 20px;
@@ -556,15 +563,21 @@ footer {
     height: 30vh; } }
 
 @media screen and (max-width: 600px) {
-  .subscription-section-2 .subscription-grid-1 h6 {
+  .subscription-section-2 .subscription-grid-1 h2 {
     font-size: 35px;
     font-weight: 800;
     margin-bottom: 60px; }
   .subscription-section-2 .subscription-grid-1 p {
     font-size: 15px; }
-  .subscription-section-2 .subscription-grid-2 h6 {
+  .subscription-section-2 .subscription-grid-2 h2 {
     font-size: 25px;
     font-weight: 800; } }
+
+@media screen and (max-width: 550px) {
+  .subscription-section-1 div h1 {
+    font-size: 30px; }
+  .subscription-section-1 div a p {
+    font-size: 20px; } }
 
 @media screen and (max-width: 400px) {
   .subscription-section-2 {
@@ -576,23 +589,27 @@ footer {
     grid-template-rows: 30vh 10vh 30vh 30vh; } }
 
 @media screen and (max-width: 350px) {
-  .subscription-section-2 .subscription-grid-1 h6 {
+  .subscription-section-1 div h1 {
+    font-size: 25px; }
+  .subscription-section-1 div a p {
+    font-size: 18px; }
+  .subscription-section-2 .subscription-grid-1 h2 {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 60px; }
   .subscription-section-2 .subscription-grid-1 p {
     font-size: 12px; }
-  .subscription-section-2 .subscription-grid-2 h6 {
+  .subscription-section-2 .subscription-grid-2 h2 {
     font-size: 20px;
     font-weight: 800;
     width: 60%;
     margin: auto; }
-  .subscription-section-2 .subscription-grid-3 h5 {
+  .subscription-section-2 .subscription-grid-3 h2 {
     font-size: 20px;
     font-weight: 800; }
   .subscription-section-2 .subscription-grid-3 p {
     font-size: 12px; }
-  .subscription-section-2 .subscription-grid-4 h5 {
+  .subscription-section-2 .subscription-grid-4 h2 {
     font-size: 20px;
     font-weight: 800; }
   .subscription-section-2 .subscription-grid-4 p {
