@@ -485,7 +485,13 @@
         grid-template-rows: 70vh 50vh 50vh ;
         align-items: center;
         .ourStory-hero {
-            height: 70vh
+            height: 70vh;
+            h1 {
+                font-size: 35px;
+            }
+            h2 {
+                font-size: 20px;
+            }
         }
         .ourStory-1 {
             height: 50vh;
@@ -539,6 +545,12 @@
             height: 50vh;
             grid-row-start: 1;
             grid-row-end: 2;
+            h1 {
+                font-size: 25px;
+            }
+            h2 {
+                font-size: 15px;
+            }
         }
         .ourStory-1 {
             height: 30vh;
