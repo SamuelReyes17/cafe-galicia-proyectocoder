@@ -50,19 +50,49 @@
 .bestsellers-2 {
     background-color: RGB(247 244 244 / 51%);
     height: 200px;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    align-items: center;
     > div {
         padding-top: 80px;
         display: flex;
         justify-content: space-around;
         div {
             h5 {
-                font-size: 25px;
+                font-size: 40px;
+                font-weight: 500;
             }
             p {
                 margin-top: 20px;
-                font-size: 12px;
+                font-size: 20px;
             }
         }
+    }
+}
+.bestsellers-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    h4 {
+        font-size: 40px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    p {
+        width: 40%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+.bestsellers-3 {
+    .bestsellers-3-img2 {
+        height: 400px;
+        width: 400px;
     }
 }

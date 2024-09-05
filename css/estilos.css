@@ -215,16 +215,41 @@ footer {
 .bestsellers-2 {
   background-color: RGB(247 244 244/51%);
   height: 200px;
-  width: 100%; }
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+  align-items: center; }
   .bestsellers-2 > div {
     padding-top: 80px;
     display: flex;
     justify-content: space-around; }
     .bestsellers-2 > div div h5 {
-      font-size: 25px; }
+      font-size: 40px;
+      font-weight: 500; }
     .bestsellers-2 > div div p {
       margin-top: 20px;
-      font-size: 12px; }
+      font-size: 20px; }
+
+.bestsellers-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .bestsellers-3 img {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px; }
+  .bestsellers-3 h4 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center; }
+  .bestsellers-3 p {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px; }
+
+.bestsellers-3 .bestsellers-3-img2 {
+  height: 400px;
+  width: 400px; }
 
 /*Our Story*/
 .grid-container-ourStory {
@@ -445,6 +470,41 @@ footer {
     width: 30%; } }
 
 /*Best Sellers*/
+@media screen and (max-width: 1600px) {
+  .bestsellers-2 {
+    background-color: RGB(247 244 244/51%);
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    align-items: center; }
+    .bestsellers-2 > div {
+      padding-top: 80px;
+      display: flex;
+      justify-content: space-around; }
+      .bestsellers-2 > div div h5 {
+        font-size: 35px;
+        font-weight: 500; }
+      .bestsellers-2 > div div p {
+        margin-top: 20px;
+        font-size: 20px; } }
+
+@media screen and (max-width: 1600px) and (max-width: 1500px) {
+  .bestsellers-2 {
+    width: 90%; } }
+
+@media screen and (max-width: 1600px) and (max-width: 1400px) {
+  .bestsellers-2 {
+    width: 95%; }
+    .bestsellers-2 > div div h5 {
+      font-size: 30px; }
+    .bestsellers-2 > div div p {
+      font-size: 16px; } }
+
+@media screen and (max-width: 1100px) {
+  .bestsellers-2 {
+    width: 95%; } }
+
 @media screen and (max-width: 1150px) {
   .bestsellers-1 {
     margin-top: 50px;
@@ -467,7 +527,7 @@ footer {
     height: 500px;
     width: 500px; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .bestsellers-1 {
     display: flex;
     flex-direction: column;
@@ -482,7 +542,7 @@ footer {
     .bestsellers-1 div p {
       text-align: center; }
   .bestsellers-2 {
-    height: 400px;
+    height: 30vh;
     width: 100%; }
     .bestsellers-2 > div {
       padding-top: 30px;
@@ -494,6 +554,28 @@ footer {
       .bestsellers-2 > div .cofee-details {
         margin: 15px;
         width: 50%; } }
+
+@media screen and (max-width: 950px) {
+  .bestsellers-3 .bestsellers-3-img2 {
+    height: 300px;
+    width: 300px; } }
+
+@media screen and (max-width: 900px) {
+  .bestsellers-3 h4 {
+    font-size: 30px; }
+  .bestsellers-3 p {
+    font-size: 13px; } }
+
+@media screen and (max-width: 950px) {
+  .bestsellers-3 img {
+    width: 100%; }
+  .bestsellers-3 h4 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 750px) {
+  .bestsellers-3 .bestsellers-3-img2 {
+    height: 250px;
+    width: 250px; } }
 
 @media screen and (max-width: 600px) {
   .bestsellers-1 {
