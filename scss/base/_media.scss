@@ -278,7 +278,7 @@
         }
     }
     .bestsellers-2 {
-        height: 30vh;
+        height: 40vh;
         width: 100%;
         >div {
             padding-top: 30px;
@@ -375,8 +375,9 @@
     }
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:360px) {
     .bestsellers-2 {
+        height: 30vh;
         div {
             .cofee-details {
                 h5 {
@@ -509,7 +510,7 @@
         grid-template-rows: 30vh 10vh 30vh 30vh;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .subscription-section-1 {
         div {
             h1 {
@@ -517,7 +518,7 @@
             }
             a {
                 p {
-                    font-size: 18px;
+                    font-size: 15px;
                 }
             }
         }
@@ -686,14 +687,14 @@
             grid-row-start: 2;
             grid-row-end: 3;
             p {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         .ourStory-1-2 {
             grid-row-start: 4;
             grid-row-end: 5;
             p {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         .ourStory-2 {
