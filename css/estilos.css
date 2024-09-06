@@ -24,7 +24,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: lightgray;
-  font-size: 25px; }
+  font-size: 17px; }
   .section-1 div {
     display: flex;
     flex-direction: column;
@@ -239,7 +239,7 @@ footer {
     margin: auto;
     margin-bottom: 50px; }
   .bestsellers-3 h4 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 50px;
     text-align: center; }
   .bestsellers-3 p {
@@ -248,8 +248,8 @@ footer {
     margin-bottom: 50px; }
 
 .bestsellers-3 .bestsellers-3-img2 {
-  height: 400px;
-  width: 400px; }
+  height: 300px;
+  width: 300px; }
 
 /*Our Story*/
 .grid-container-ourStory {
@@ -315,14 +315,14 @@ footer {
     .subscription-section-1 div h1 {
       margin-top: 2px;
       margin-bottom: 20px;
-      font-size: 50px;
+      font-size: 40px;
       font-weight: 900;
       letter-spacing: 1.5px; }
     .subscription-section-1 div a p {
       font-family: AkkuratMono, Courier, monospace;
       color: #be4025;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 15px;
       padding-bottom: 8px;
       border-bottom: 1px solid #be4025; }
@@ -339,22 +339,22 @@ footer {
     grid-column-end: 3;
     width: 80%; }
     .subscription-section-2 .subscription-grid-1 h2 {
-      font-size: 50px;
+      font-size: 30px;
       font-weight: 800;
       margin-bottom: 60px; }
   .subscription-section-2 .subscription-grid-2 {
     grid-column-start: 1;
     grid-column-end: 3;
-    font-size: 15px; }
+    font-size: 12px; }
     .subscription-section-2 .subscription-grid-2 h2 {
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 800; }
   .subscription-section-2 .subscription-grid-3 {
     width: 60%; }
     .subscription-section-2 .subscription-grid-3 img {
       width: 70%; }
     .subscription-section-2 .subscription-grid-3 h2 {
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 700;
       margin-bottom: 30px; }
   .subscription-section-2 .subscription-grid-4 {
@@ -362,7 +362,7 @@ footer {
     .subscription-section-2 .subscription-grid-4 img {
       width: 70%; }
     .subscription-section-2 .subscription-grid-4 h2 {
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 700;
       margin-bottom: 30px; }
 
@@ -377,7 +377,7 @@ footer {
 /*Index*/
 @media screen and (max-width: 1200px) {
   .section-1 {
-    font-size: 15px; }
+    font-size: 14px; }
     .section-1 div button {
       font-size: 20px; }
   .section-2 {
@@ -404,10 +404,6 @@ footer {
     height: 300px;
     width: 300px; } }
 
-@media screen and (max-width: 900px) {
-  .section-1 {
-    height: 60vh; } }
-
 @media screen and (max-width: 800px) {
   .section-3 {
     display: flex;
@@ -428,7 +424,7 @@ footer {
 @media screen and (max-width: 580px) {
   .section-1 {
     display: flex;
-    height: 60vh;
+    height: 70vh;
     text-align: center;
     background-image: url(../img/our_story_bg_1.jpg);
     background-repeat: no-repeat;
@@ -436,7 +432,7 @@ footer {
     background-position: center;
     background-attachment: fixed;
     color: lightgray;
-    font-size: 15px; }
+    font-size: 12px; }
     .section-1 div button {
       font-size: 20px; }
   .section-2 {
@@ -451,7 +447,7 @@ footer {
 
 @media screen and (max-width: 460px) {
   .section-1 {
-    height: 50vh;
+    height: 60vh;
     font-size: 10px; }
     .section-1 div button {
       margin-top: 10px;
@@ -499,7 +495,7 @@ footer {
     .bestsellers-2 > div div h5 {
       font-size: 30px; }
     .bestsellers-2 > div div p {
-      font-size: 16px; } }
+      font-size: 12px; } }
 
 @media screen and (max-width: 1100px) {
   .bestsellers-2 {
@@ -507,8 +503,10 @@ footer {
 
 @media screen and (max-width: 1150px) {
   .bestsellers-1 {
-    margin-top: 50px;
-    height: 60vh; } }
+    margin-top: 20vh;
+    height: 60vh; }
+    .bestsellers-1 div h1 {
+      font-size: 45px; } }
 
 @media screen and (max-width: 1100px) {
   .bestsellers-1 {
@@ -532,8 +530,8 @@ footer {
     display: flex;
     flex-direction: column;
     height: 40vh;
-    margin-top: 230px;
-    margin-bottom: 220px; }
+    margin-top: 50vh;
+    margin-bottom: 50vh; }
     .bestsellers-1 div h1 {
       text-align: center;
       font-size: 25px;
@@ -542,7 +540,7 @@ footer {
     .bestsellers-1 div p {
       text-align: center; }
   .bestsellers-2 {
-    height: 40vh;
+    height: 60vh;
     width: 100%; }
     .bestsellers-2 > div {
       padding-top: 30px;
@@ -557,14 +555,12 @@ footer {
 
 @media screen and (max-width: 950px) {
   .bestsellers-3 .bestsellers-3-img2 {
-    height: 300px;
-    width: 300px; } }
+    height: 30vh;
+    width: 30vh; } }
 
 @media screen and (max-width: 900px) {
-  .bestsellers-3 h4 {
-    font-size: 30px; }
   .bestsellers-3 p {
-    font-size: 13px; } }
+    font-size: 11px; } }
 
 @media screen and (max-width: 950px) {
   .bestsellers-3 img {
@@ -574,24 +570,29 @@ footer {
 
 @media screen and (max-width: 750px) {
   .bestsellers-3 .bestsellers-3-img2 {
-    height: 250px;
-    width: 250px; } }
+    height: 30vh;
+    width: 30vh; } }
 
 @media screen and (max-width: 600px) {
   .bestsellers-1 {
     display: flex;
     flex-direction: column;
     height: 40vh;
-    margin-top: 150px;
-    margin-bottom: 220px; }
+    margin-top: 40vh;
+    margin-bottom: 40vh; }
     .bestsellers-1 div:nth-child(1) img {
       height: 350px;
       width: 350px; } }
 
 @media screen and (max-width: 500px) {
+  .bestsellers-3 .bestsellers-3-img2 {
+    height: 20vh;
+    width: 20vh; } }
+
+@media screen and (max-width: 500px) {
   .bestsellers-1 {
-    margin-top: 150px;
-    margin-bottom: 150px; }
+    margin-top: 40vh;
+    margin-bottom: 40vh; }
     .bestsellers-1 div:nth-child(1) img {
       height: 300px;
       width: 300px;
@@ -606,7 +607,7 @@ footer {
 
 @media screen and (max-width: 360px) {
   .bestsellers-2 {
-    height: 30vh; }
+    height: 55vh; }
     .bestsellers-2 div .cofee-details h5 {
       font-size: 20px; }
     .bestsellers-2 div .cofee-details p {
@@ -629,22 +630,6 @@ footer {
   footer > div div ul li {
     font-size: 9px; } }
 
-@media screen and (max-width: 500px) {
-  footer > div {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 15vh 15vh 15vh 15vh;
-    align-items: center;
-    justify-content: center; } }
-
-@media screen and (max-width: 380px) {
-  footer > div {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10vh 10vh 10vh 10vh;
-    align-items: center;
-    justify-content: center; } }
-
 /*Subscription*/
 @media screen and (max-width: 900px) {
   .subscription-section-2 {
@@ -653,13 +638,15 @@ footer {
     justify-items: center;
     text-align: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh 10vh 40vh 40vh; }
+    grid-template-rows: 50vh 20vh 50vh 50vh; }
+    .subscription-section-2 .subscription-grid-3 img {
+      height: 20vh;
+      width: 20vh; }
+    .subscription-section-2 .subscription-grid-4 img {
+      height: 20vh;
+      width: 20vh; }
     .subscription-section-2 .subscription-grid-4 {
       grid-row-end: -1; } }
-
-@media screen and (max-width: 700px) {
-  .subscription-section-1 {
-    height: 30vh; } }
 
 @media screen and (max-width: 600px) {
   .subscription-section-2 .subscription-grid-1 h2 {
@@ -677,15 +664,6 @@ footer {
     font-size: 30px; }
   .subscription-section-1 div a p {
     font-size: 20px; } }
-
-@media screen and (max-width: 400px) {
-  .subscription-section-2 {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30vh 10vh 30vh 30vh; } }
 
 @media screen and (max-width: 360px) {
   .subscription-section-1 div h1 {
@@ -757,64 +735,37 @@ footer {
       grid-row-start: 5;
       grid-row-end: 6; } }
 
+@media screen and (max-width: 650px) {
+  .grid-container-ourStory .ourStory-hero h1 {
+    font-size: 23px; }
+  .grid-container-ourStory .ourStory-hero h2 {
+    font-size: 12px; }
+  .grid-container-ourStory .ourStory-1-1 p {
+    font-size: 12px; }
+  .grid-container-ourStory .ourStory-1-2 p {
+    font-size: 12px; } }
+
 @media screen and (max-width: 500px) {
   .grid-container-ourStory {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50vh 30vh 30vh 30vh 30vh;
+    grid-template-rows: 50vh 40vh 40vh 40vh 40vh;
     align-items: center; }
     .grid-container-ourStory .ourStory-hero {
       height: 50vh;
       grid-row-start: 1;
       grid-row-end: 2; }
-      .grid-container-ourStory .ourStory-hero h1 {
-        font-size: 25px; }
-      .grid-container-ourStory .ourStory-hero h2 {
-        font-size: 15px; }
     .grid-container-ourStory .ourStory-1 {
-      height: 30vh;
-      grid-row-start: 3;
-      grid-row-end: 4; }
-    .grid-container-ourStory .ourStory-1-1 {
-      grid-row-start: 2;
-      grid-row-end: 3; }
-      .grid-container-ourStory .ourStory-1-1 p {
-        font-size: 14px; }
-    .grid-container-ourStory .ourStory-1-2 {
-      grid-row-start: 4;
-      grid-row-end: 5; }
-      .grid-container-ourStory .ourStory-1-2 p {
-        font-size: 14px; }
-    .grid-container-ourStory .ourStory-2 {
-      height: 30vh;
-      grid-row-start: 5;
-      grid-row-end: 6; } }
-
-@media screen and (max-width: 350px) {
-  .grid-container-ourStory {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40vh 20vh 20vh 20vh 20vh;
-    align-items: center; }
-    .grid-container-ourStory .ourStory-hero {
       height: 40vh;
-      grid-row-start: 1;
-      grid-row-end: 2; }
-    .grid-container-ourStory .ourStory-1 {
-      height: 20vh;
       grid-row-start: 3;
       grid-row-end: 4; }
     .grid-container-ourStory .ourStory-1-1 {
       grid-row-start: 2;
       grid-row-end: 3; }
-      .grid-container-ourStory .ourStory-1-1 p {
-        font-size: 12px; }
     .grid-container-ourStory .ourStory-1-2 {
       grid-row-start: 4;
       grid-row-end: 5; }
-      .grid-container-ourStory .ourStory-1-2 p {
-        font-size: 12px; }
     .grid-container-ourStory .ourStory-2 {
-      height: 20vh;
+      height: 40vh;
       grid-row-start: 5;
       grid-row-end: 6; } }
