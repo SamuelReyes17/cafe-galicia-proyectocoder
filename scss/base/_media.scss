@@ -282,8 +282,8 @@
         display: flex;
         flex-direction: column;
         height: 40vh;
-        margin-top: 25vh;
-        margin-bottom: 35vh;
+        margin-top: 50vh;
+        margin-bottom: 60vh;
         div {
             h1 {
                 text-align: center;
@@ -298,7 +298,7 @@
         }
     }
     .bestsellers-2 {
-        height: 40vh;
+        height: 70vh;
         width: 100%;
         >div {
             padding-top: 30px;
@@ -367,8 +367,8 @@
         display: flex;
         flex-direction: column;
         height: 40vh;
-        margin-top: 30vh;
-        margin-bottom: 30vh;
+        margin-top: 60vh;
+        margin-bottom: 55vh;
         div {
             &:nth-child(1) {
                 img {
@@ -381,7 +381,7 @@
 }
 @media screen and (max-width:505px) {
     .bestsellers-2 {
-        height: 45vh;
+        height: 70vh;
         width: 100%;
        
     }
@@ -396,8 +396,8 @@
 }
 @media screen and (max-width:500px) {
     .bestsellers-1 {
-        margin-top: 25vh;
-        margin-bottom: 26vh;
+        margin-top: 55vh;
+        margin-bottom: 60vh;
         div {
             &:nth-child(1) {
                 img {
@@ -423,8 +423,8 @@
 }
 @media screen and (max-width:420px) {
     .bestsellers-1 {
-        margin-top: 30vh;
-        margin-bottom: 30vh;
+        margin-top: 50vh;
+        margin-bottom: 55vh;
         div {
             &:nth-child(1) {
                 img {
@@ -436,10 +436,17 @@
         }
     }
 }
+@media screen and (max-width:400px) {
+    .bestsellers-2 {
+        height: 80vh;
+        width: 100%;
+       
+    }
+}
 @media screen and (max-width:350px) {
     .bestsellers-1 {
-        margin-top: 30vh;
-        margin-bottom: 30vh;
+        margin-top: 60vh;
+        margin-bottom: 60vh;
         div {
             &:nth-child(1) {
                 img {
@@ -453,7 +460,7 @@
 }
 @media screen and (max-width:360px) {
     .bestsellers-2 {
-        height: 35vh;
+        height: 55vh;
         div {
             .cofee-details {
                 h5 {
