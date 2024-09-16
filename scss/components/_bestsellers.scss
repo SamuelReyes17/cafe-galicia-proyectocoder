@@ -2,10 +2,7 @@
 
 .bestsellers-1 {
     height: 70vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    @include flex(flex, center, center, row);
     margin-top: 100px;
     margin-bottom: 150px;
     div {
@@ -36,19 +33,24 @@
         button {
             margin-top: 40px;
             margin-bottom: 40px;
-            background-color: rgb(251, 250, 250);
+            background-color: RGB(247 244 244 / 51%);
             border: none;
             padding: 20px;
             border-radius: 5px;
-            color: rgb(188, 190, 192);
+            color: #999ea3;
             letter-spacing: 0.2cap;
             font-size: 20px;
+            transition: 1s;
+            &:hover {
+                background-color: $color-footer;
+                color: white;
+            }
         }
     }
 }
 
 .bestsellers-2 {
-    background-color: RGB(247 244 244 / 51%);
+    background-color: $color-bestSellers;
     height: 200px;
     width: 80%;
     margin: auto;
@@ -85,7 +87,7 @@
         text-align: center;
     }
     p {
-        width: 40%;
+        width: 70%;
         text-align: center;
         margin-bottom: 50px;
     }

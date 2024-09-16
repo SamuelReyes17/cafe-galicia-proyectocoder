@@ -1,8 +1,17 @@
 /*Variables*/
 $color-section1-button: #ffffffb6;
 $color-footer: #271e20;
+$color-bestSellers: #f3ede8;
 
 /*Extends*/
 %enlaces{
     text-decoration: none;
+}
+
+/*Mixin*/
+@mixin flex($Flex, $justify, $align, $direction) {
+    display: $Flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
 }
