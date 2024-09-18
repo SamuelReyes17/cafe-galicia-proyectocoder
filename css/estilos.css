@@ -243,6 +243,7 @@ footer {
       font-size: 20px; }
 
 .bestsellers-3 {
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -553,8 +554,8 @@ footer {
     display: flex;
     flex-direction: column;
     height: 40vh;
-    margin-top: 50vh;
-    margin-bottom: 60vh; }
+    margin-top: 30vh;
+    margin-bottom: 30vh; }
     .bestsellers-1 div h1 {
       text-align: center;
       font-size: 55px;
@@ -564,7 +565,7 @@ footer {
       text-align: center;
       font-size: 16px; }
   .bestsellers-2 {
-    height: 70vh;
+    height: fit-content;
     width: 100%; }
     .bestsellers-2 > div {
       padding-top: 31px;
@@ -588,15 +589,15 @@ footer {
   .bestsellers-2 > div div p {
     font-size: 15px; } }
 
-@media screen and (max-width: 900px) {
-  .bestsellers-3 p {
-    font-size: 15px; } }
-
 @media screen and (max-width: 950px) {
   .bestsellers-3 img {
     width: 100%; }
   .bestsellers-3 h4 {
     font-size: 25px; } }
+
+@media screen and (max-width: 900px) {
+  .bestsellers-3 p {
+    font-size: 15px; } }
 
 @media screen and (max-width: 750px) {
   .bestsellers-3 .bestsellers-3-img2 {
@@ -608,26 +609,20 @@ footer {
     display: flex;
     flex-direction: column;
     height: 40vh;
-    margin-top: 60vh;
-    margin-bottom: 55vh; }
+    margin-top: 30vh;
+    margin-bottom: 30vh; }
     .bestsellers-1 div:nth-child(1) img {
       height: 450px;
       width: 450px; } }
 
 @media screen and (max-width: 505px) {
   .bestsellers-2 {
-    height: 70vh;
     width: 100%; } }
 
 @media screen and (max-width: 500px) {
-  .bestsellers-3 .bestsellers-3-img2 {
-    height: 20vh;
-    width: 20vh; } }
-
-@media screen and (max-width: 500px) {
   .bestsellers-1 {
-    margin-top: 55vh;
-    margin-bottom: 60vh; }
+    margin-top: 30vh;
+    margin-bottom: 30vh; }
     .bestsellers-1 div:nth-child(1) img {
       height: 400px;
       width: 400px;
@@ -638,12 +633,15 @@ footer {
       margin-top: 20px;
       font-size: 14px; }
     .bestsellers-1 div button {
-      font-size: 20px; } }
+      font-size: 20px; }
+  .bestsellers-3 .bestsellers-3-img2 {
+    height: 20vh;
+    width: 20vh; } }
 
 @media screen and (max-width: 420px) {
   .bestsellers-1 {
-    margin-top: 50vh;
-    margin-bottom: 55vh; }
+    margin-top: 30vh;
+    margin-bottom: 30vh; }
     .bestsellers-1 div:nth-child(1) img {
       height: 350px;
       width: 350px;
@@ -651,25 +649,22 @@ footer {
 
 @media screen and (max-width: 400px) {
   .bestsellers-2 {
-    height: 80vh;
     width: 100%; } }
+
+@media screen and (max-width: 360px) {
+  .bestsellers-2 div .cofee-details h5 {
+    font-size: 20px; }
+  .bestsellers-2 div .cofee-details p {
+    font-size: 10px; } }
 
 @media screen and (max-width: 350px) {
   .bestsellers-1 {
-    margin-top: 60vh;
-    margin-bottom: 60vh; }
+    margin-top: 30vh;
+    margin-bottom: 30vh; }
     .bestsellers-1 div:nth-child(1) img {
       height: 300px;
       width: 300px;
       margin-bottom: 30px; } }
-
-@media screen and (max-width: 360px) {
-  .bestsellers-2 {
-    height: 55vh; }
-    .bestsellers-2 div .cofee-details h5 {
-      font-size: 20px; }
-    .bestsellers-2 div .cofee-details p {
-      font-size: 10px; } }
 
 /*Footer*/
 @media screen and (max-width: 800px) {
