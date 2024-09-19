@@ -51,23 +51,25 @@
 
 .bestsellers-2 {
     background-color: $color-bestSellers;
-    height: 200px;
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-bottom: 40px;
     align-items: center;
     > div {
-        padding-top: 80px;
+        padding: 3%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         div {
+            text-align: center;
+            margin-right: 2%;
             h5 {
-                font-size: 40px;
+                font-size: 2.5rem;
                 font-weight: 500;
             }
             p {
                 margin-top: 20px;
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
