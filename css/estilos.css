@@ -190,19 +190,23 @@ footer {
   align-items: center;
   flex-direction: row;
   margin-top: 100px;
-  margin-bottom: 150px; }
-  .bestsellers-1 div img {
-    height: 650px;
-    width: 650px; }
+  margin-bottom: 3%; }
+  .bestsellers-1 div {
+    height: 100%;
+    margin-bottom: 5%; }
+    .bestsellers-1 div img {
+      height: 100%;
+      object-fit: contain;
+      width: 100%; }
   .bestsellers-1 div:nth-child(2) {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px; }
+    padding: 10px;
+    justify-content: center; }
   .bestsellers-1 div h1 {
     font-size: 60px;
-    margin-top: 70px;
     margin-bottom: 70px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif; }
@@ -529,37 +533,35 @@ footer {
       font-size: 45px; } }
 
 @media screen and (max-width: 1100px) {
-  .bestsellers-1 {
-    height: 50vh; }
-    .bestsellers-1 div:nth-child(1) img {
-      height: 600px;
-      width: 600px; }
-    .bestsellers-1 div h1 {
-      font-size: 55px; }
-    .bestsellers-1 div p {
-      margin-top: 20px;
-      font-size: 13px; } }
+  .bestsellers-1 div:nth-child(1) img {
+    height: 100%;
+    width: 100%; }
+  .bestsellers-1 div h1 {
+    font-size: 55px; }
+  .bestsellers-1 div p {
+    margin-top: 20px; } }
 
 @media screen and (max-width: 900px) {
   .bestsellers-1 div:nth-child(1) img {
-    height: 500px;
-    width: 500px; } }
+    height: 100%;
+    width: 100%; } }
 
 @media screen and (max-width: 1000px) {
   .bestsellers-1 {
     display: flex;
     flex-direction: column;
-    height: 40vh;
-    margin-top: 30vh;
-    margin-bottom: 30vh; }
-    .bestsellers-1 div h1 {
-      text-align: center;
-      font-size: 55px;
-      margin-bottom: 30px;
-      margin-top: 20px; }
-    .bestsellers-1 div p {
-      text-align: center;
-      font-size: 16px; }
+    margin-bottom: 20%; }
+    .bestsellers-1 div {
+      padding-top: 15%; }
+      .bestsellers-1 div:nth-child(2) {
+        width: 80%; }
+      .bestsellers-1 div h1 {
+        text-align: center;
+        font-size: 55px;
+        margin-bottom: 30px; }
+      .bestsellers-1 div p {
+        text-align: center;
+        font-size: 16px; }
   .bestsellers-2 {
     width: 100%; }
     .bestsellers-2 > div {
@@ -590,6 +592,10 @@ footer {
   .bestsellers-3 h4 {
     font-size: 25px; } }
 
+@media screen and (max-width: 800px) {
+  .section-1-bs {
+    margin-bottom: 30%; } }
+
 @media screen and (max-width: 900px) {
   .bestsellers-3 p {
     font-size: 15px; } }
@@ -600,51 +606,47 @@ footer {
     width: 30vh; } }
 
 @media screen and (max-width: 600px) {
+  .section-1-bs {
+    margin-bottom: 50%;
+    padding-top: 8%; }
   .bestsellers-1 {
     display: flex;
-    flex-direction: column;
-    height: 40vh;
-    margin-top: 30vh;
-    margin-bottom: 30vh; }
+    flex-direction: column; }
     .bestsellers-1 div:nth-child(1) img {
-      height: 450px;
-      width: 450px; } }
+      height: 100%;
+      width: 100%; } }
 
 @media screen and (max-width: 505px) {
   .bestsellers-2 {
     width: 100%; } }
 
 @media screen and (max-width: 500px) {
-  .bestsellers-1 {
-    margin-top: 30vh;
-    margin-bottom: 30vh; }
-    .bestsellers-1 div:nth-child(1) img {
-      height: 400px;
-      width: 400px;
-      margin-bottom: 30px; }
-    .bestsellers-1 div h1 {
-      font-size: 40px; }
-    .bestsellers-1 div p {
-      margin-top: 20px;
-      font-size: 14px; }
-    .bestsellers-1 div button {
-      font-size: 20px; }
+  .bestsellers-1 div:nth-child(1) img {
+    height: 100%;
+    width: 100%; }
+  .bestsellers-1 div h1 {
+    font-size: 40px; }
+  .bestsellers-1 div p {
+    margin-top: 20px;
+    font-size: 14px; }
+  .bestsellers-1 div button {
+    font-size: 20px; }
   .bestsellers-3 .bestsellers-3-img2 {
     height: 20vh;
     width: 20vh; } }
 
 @media screen and (max-width: 420px) {
-  .bestsellers-1 {
-    margin-top: 30vh;
-    margin-bottom: 30vh; }
-    .bestsellers-1 div:nth-child(1) img {
-      height: 350px;
-      width: 350px;
-      margin-bottom: 30px; } }
+  .bestsellers-1 div:nth-child(1) img {
+    height: 100%;
+    width: 100%; } }
 
 @media screen and (max-width: 400px) {
   .bestsellers-2 {
     width: 100%; } }
+
+@media screen and (max-width: 375px) {
+  .section-1-bs {
+    margin-bottom: 60%; } }
 
 @media screen and (max-width: 360px) {
   .bestsellers-2 div .cofee-details h5 {
@@ -653,13 +655,9 @@ footer {
     font-size: 10px; } }
 
 @media screen and (max-width: 350px) {
-  .bestsellers-1 {
-    margin-top: 30vh;
-    margin-bottom: 30vh; }
-    .bestsellers-1 div:nth-child(1) img {
-      height: 300px;
-      width: 300px;
-      margin-bottom: 30px; } }
+  .bestsellers-1 div:nth-child(1) img {
+    height: 100%;
+    width: 100%; } }
 
 /*Footer*/
 @media screen and (max-width: 800px) {
