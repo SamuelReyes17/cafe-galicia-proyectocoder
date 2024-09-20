@@ -594,7 +594,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   .section-1-bs {
-    margin-bottom: 30%; } }
+    margin-bottom: 35%; } }
 
 @media screen and (max-width: 900px) {
   .bestsellers-3 p {
@@ -644,9 +644,9 @@ footer {
   .bestsellers-2 {
     width: 100%; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .section-1-bs {
-    margin-bottom: 60%; } }
+    margin-bottom: 70%; } }
 
 @media screen and (max-width: 360px) {
   .bestsellers-2 div .cofee-details h5 {
