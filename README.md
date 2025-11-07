@@ -1,10 +1,12 @@
 <h1 align="center">Hi 👋, I'm Samuel Reyes</h1>
 <h3 align="center">A passionate frontend developer from Colombia</h3>
 
-- 🔭 I’m currently working on [Cafe Galicia website](https://github.com/SamuelReyes17/cafe-galicia-proyectocoder.git)
+- 🔭 This is my coffee brand [Cafe Galicia website](https://github.com/SamuelReyes17/cafe-galicia-proyectocoder.git)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+  samuelreyesespinal02@gmail.com
+  https://www.linkedin.com/in/samuel-reyes-4860b8353/
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
